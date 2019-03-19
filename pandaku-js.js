@@ -1,3 +1,12 @@
+<b:if cond='data:blog.pageType == &quot;index&quot;'>
+<script type='text/javascript'>
+/*<![CDATA[*/
+var postperpage=7;var numshowpage=3;var upPageWord ='prev';var downPageWord ='Next';var urlactivepage=location.href;var home_page="/";
+/*]]>*/
+</script>
+<script src='https://rawcdn.githack.com/Arlina-Design/redvision/master/unlipage.js' type='text/javascript'/>
+</b:if>
+<b:if cond='data:blog.pageType != &quot;index&quot;'>
 <script type='text/javascript'>
 //Related Post Thumb
 $(&quot;ul#related-summary li img&quot;).each(function(){$(this).attr(&quot;src&quot;,$(this).attr(&quot;src&quot;).replace(/\/s[0-9]+(\-c)?\//,&quot;/w200-h140-c/&quot;))});
