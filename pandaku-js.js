@@ -5,7 +5,6 @@ var postperpage=7;var numshowpage=3;var upPageWord ='prev';var downPageWord ='Ne
 /*]]>*/
 </script>
 <script src='https://rawcdn.githack.com/Arlina-Design/redvision/master/unlipage.js' type='text/javascript'/>
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"></link> 
 </b:if>
 <b:if cond='data:blog.pageType != &quot;index&quot;'>
 <script type='text/javascript'>
